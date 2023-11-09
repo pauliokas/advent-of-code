@@ -1,0 +1,17 @@
+{
+  "name": "@aoctools/fetch-task",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "got": "13.0.0",
+    "node-html-markdown": "1.3.0"
+  },
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*"
+  }
+}

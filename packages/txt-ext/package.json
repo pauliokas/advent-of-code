@@ -1,0 +1,5 @@
+{
+  "name": "@types/txt-ext",
+  "type": "module",
+  "types": "./types.d.ts"
+}

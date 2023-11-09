@@ -1,0 +1,9 @@
+{
+  "extends": "@aoctools/tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+  },
+  "include": ["**/*.ts"],
+}

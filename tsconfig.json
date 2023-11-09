@@ -1,0 +1,7 @@
+{
+  "extends": "@aoctools/tsconfig",
+  "references": [
+    { "path": "packages/fetch-task" },
+  ],
+  "exclude": ["templates/", "**/*.ts"],
+}

@@ -1,0 +1,58 @@
+{
+  "name": "advent-of-code-2023",
+  "packageManager": "yarn@4.0.1",
+  "workspaces": [
+    "days/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint --cache .",
+    "test": "jest",
+    "test:utils": "jest packages/",
+    "test:days": "jest days/",
+    "fetch-day": "plop",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@aoctools/fetch-task": "workspace:*",
+    "@aoctools/tsconfig": "workspace:*",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
+    "@babel/preset-typescript": "7.23.2",
+    "@types/jest": "29.5.6",
+    "@types/node": "20.8.9",
+    "@typescript-eslint/eslint-plugin": "6.9.0",
+    "@typescript-eslint/parser": "6.9.0",
+    "babel-jest": "29.7.0",
+    "eslint": "8.52.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-jest": "27.6.0",
+    "eslint-plugin-jest-formatting": "3.1.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "husky": "8.0.3",
+    "jest": "29.7.0",
+    "lint-staged": "15.0.2",
+    "plop": "4.0.0",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "proseWrap": "always"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --cache --fix"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  }
+}
