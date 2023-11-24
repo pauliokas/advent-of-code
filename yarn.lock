@@ -50,16 +50,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@aocdays/2021-01@workspace:solutions/2021/01":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-01@workspace:solutions/2021/01"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
 "@aocdays/2022-01@workspace:solutions/2022/01":
   version: 0.0.0-use.local
   resolution: "@aocdays/2022-01@workspace:solutions/2022/01"
@@ -238,16 +228,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@aocdays/2022-18@workspace:solutions/2022/18":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-18@workspace:solutions/2022/18"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
 "@aocdays/2022-19@workspace:solutions/2022/19":
   version: 0.0.0-use.local
   resolution: "@aocdays/2022-19@workspace:solutions/2022/19"
@@ -271,46 +251,6 @@ __metadata:
 "@aocdays/2022-21@workspace:solutions/2022/21":
   version: 0.0.0-use.local
   resolution: "@aocdays/2022-21@workspace:solutions/2022/21"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-22@workspace:solutions/2022/22":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-22@workspace:solutions/2022/22"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-23@workspace:solutions/2022/23":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-23@workspace:solutions/2022/23"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-24@workspace:solutions/2022/24":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-24@workspace:solutions/2022/24"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-25@workspace:solutions/2022/25":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-25@workspace:solutions/2022/25"
   dependencies:
     "@aoctools/tsconfig": "workspace:*"
     "@types/jest": "npm:*"

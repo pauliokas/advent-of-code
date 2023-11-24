@@ -34,10 +34,6 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/txt-ext"\
     },\
     {\
-      "name": "@aocdays/2021-01",\
-      "reference": "workspace:solutions/2021/01"\
-    },\
-    {\
       "name": "@aocdays/2022-01",\
       "reference": "workspace:solutions/2022/01"\
     },\
@@ -106,10 +102,6 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:solutions/2022/17"\
     },\
     {\
-      "name": "@aocdays/2022-18",\
-      "reference": "workspace:solutions/2022/18"\
-    },\
-    {\
       "name": "@aocdays/2022-19",\
       "reference": "workspace:solutions/2022/19"\
     },\
@@ -120,22 +112,6 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "@aocdays/2022-21",\
       "reference": "workspace:solutions/2022/21"\
-    },\
-    {\
-      "name": "@aocdays/2022-22",\
-      "reference": "workspace:solutions/2022/22"\
-    },\
-    {\
-      "name": "@aocdays/2022-23",\
-      "reference": "workspace:solutions/2022/23"\
-    },\
-    {\
-      "name": "@aocdays/2022-24",\
-      "reference": "workspace:solutions/2022/24"\
-    },\
-    {\
-      "name": "@aocdays/2022-25",\
-      "reference": "workspace:solutions/2022/25"\
     }\
   ],\
   "enableTopLevelFallback": true,\
@@ -143,7 +119,6 @@ const RAW_RUNTIME_STATE =
   "fallbackExclusionList": [\
     ["@aoc-utils/graphs", ["workspace:packages/graphs"]],\
     ["@aoc-utils/ranges", ["workspace:packages/ranges"]],\
-    ["@aocdays/2021-01", ["workspace:solutions/2021/01"]],\
     ["@aocdays/2022-01", ["workspace:solutions/2022/01"]],\
     ["@aocdays/2022-02", ["workspace:solutions/2022/02"]],\
     ["@aocdays/2022-03", ["workspace:solutions/2022/03"]],\
@@ -161,14 +136,9 @@ const RAW_RUNTIME_STATE =
     ["@aocdays/2022-15", ["workspace:solutions/2022/15"]],\
     ["@aocdays/2022-16", ["workspace:solutions/2022/16"]],\
     ["@aocdays/2022-17", ["workspace:solutions/2022/17"]],\
-    ["@aocdays/2022-18", ["workspace:solutions/2022/18"]],\
     ["@aocdays/2022-19", ["workspace:solutions/2022/19"]],\
     ["@aocdays/2022-20", ["workspace:solutions/2022/20"]],\
     ["@aocdays/2022-21", ["workspace:solutions/2022/21"]],\
-    ["@aocdays/2022-22", ["workspace:solutions/2022/22"]],\
-    ["@aocdays/2022-23", ["workspace:solutions/2022/23"]],\
-    ["@aocdays/2022-24", ["workspace:solutions/2022/24"]],\
-    ["@aocdays/2022-25", ["workspace:solutions/2022/25"]],\
     ["@aoctools/fetch-task", ["workspace:packages/fetch-task"]],\
     ["@aoctools/tsconfig", ["workspace:packages/tsconfig"]],\
     ["@types/txt-ext", ["workspace:packages/txt-ext"]],\
@@ -257,18 +227,6 @@ const RAW_RUNTIME_STATE =
           ["@aoc-utils/ranges", "workspace:packages/ranges"],\
           ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/jest", "npm:29.5.8"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@aocdays/2021-01", [\
-      ["workspace:solutions/2021/01", {\
-        "packageLocation": "./solutions/2021/01/",\
-        "packageDependencies": [\
-          ["@aocdays/2021-01", "workspace:solutions/2021/01"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -485,18 +443,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["@aocdays/2022-18", [\
-      ["workspace:solutions/2022/18", {\
-        "packageLocation": "./solutions/2022/18/",\
-        "packageDependencies": [\
-          ["@aocdays/2022-18", "workspace:solutions/2022/18"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
     ["@aocdays/2022-19", [\
       ["workspace:solutions/2022/19", {\
         "packageLocation": "./solutions/2022/19/",\
@@ -526,54 +472,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./solutions/2022/21/",\
         "packageDependencies": [\
           ["@aocdays/2022-21", "workspace:solutions/2022/21"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@aocdays/2022-22", [\
-      ["workspace:solutions/2022/22", {\
-        "packageLocation": "./solutions/2022/22/",\
-        "packageDependencies": [\
-          ["@aocdays/2022-22", "workspace:solutions/2022/22"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@aocdays/2022-23", [\
-      ["workspace:solutions/2022/23", {\
-        "packageLocation": "./solutions/2022/23/",\
-        "packageDependencies": [\
-          ["@aocdays/2022-23", "workspace:solutions/2022/23"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@aocdays/2022-24", [\
-      ["workspace:solutions/2022/24", {\
-        "packageLocation": "./solutions/2022/24/",\
-        "packageDependencies": [\
-          ["@aocdays/2022-24", "workspace:solutions/2022/24"],\
-          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
-          ["@types/jest", "npm:29.5.8"],\
-          ["@types/txt-ext", "workspace:packages/txt-ext"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@aocdays/2022-25", [\
-      ["workspace:solutions/2022/25", {\
-        "packageLocation": "./solutions/2022/25/",\
-        "packageDependencies": [\
-          ["@aocdays/2022-25", "workspace:solutions/2022/25"],\
           ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/jest", "npm:29.5.8"],\
           ["@types/txt-ext", "workspace:packages/txt-ext"]\
