@@ -1,0 +1,14 @@
+{
+  "name": "@aocdays/2022-04",
+  "main": "./day04.ts",
+  "type": "module",
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*",
+    "@types/jest": "*",
+    "@types/lodash": "^4",
+    "@types/txt-ext": "workspace:*"
+  },
+  "dependencies": {
+    "lodash": "4"
+  }
+}

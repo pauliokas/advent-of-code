@@ -1,0 +1,13 @@
+{
+  "name": "@aoc-utils/graphs",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/graphs.js",
+  "types": "dist/graphs.d.ts",
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*",
+    "@types/jest": "*"
+  }
+}

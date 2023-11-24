@@ -1,0 +1,13 @@
+{
+  "name": "@aoc-utils/ranges",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/ranges.js",
+  "types": "dist/ranges.d.ts",
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*",
+    "@types/jest": "*"
+  }
+}

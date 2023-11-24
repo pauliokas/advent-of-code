@@ -2,6 +2,8 @@
   "extends": "@aoctools/tsconfig",
   "references": [
     { "path": "packages/fetch-task" },
+    { "path": "packages/graphs" },
+    { "path": "packages/ranges" },
   ],
   "exclude": ["templates/", "**/*.ts"],
 }

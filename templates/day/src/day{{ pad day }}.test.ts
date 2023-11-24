@@ -3,7 +3,7 @@ import parseInput from './day{{ pad day }}.input';
 import inputExampleTxt from './input-example.txt';
 import inputTxt from './input.txt';
 
-describe('Day {{ day }}', () => {
+describe('{{ year }}-{{ pad day }}', () => {
   describe('part 1', () => {
     it('example', () => {
       expect(solvePart1(parseInput(inputExampleTxt))).toBe(0);
