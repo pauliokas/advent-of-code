@@ -1,6 +1,5 @@
 import { solvePart1, solvePart2 } from './day12';
 import parseInput from './day12.input';
-import inputExampleTxt from './input-example.txt';
 import inputTxt from './input.txt';
 
 const inputs = [
