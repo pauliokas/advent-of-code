@@ -1,0 +1,10 @@
+{
+  "name": "@aocdays/2021-06",
+  "main": "./day06.ts",
+  "type": "module",
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*",
+    "@types/jest": "*",
+    "@types/txt-ext": "workspace:*"
+  }
+}

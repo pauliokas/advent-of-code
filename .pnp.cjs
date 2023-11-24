@@ -34,6 +34,70 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/txt-ext"\
     },\
     {\
+      "name": "@aocdays/2021-01",\
+      "reference": "workspace:solutions/2021/01"\
+    },\
+    {\
+      "name": "@aocdays/2021-02",\
+      "reference": "workspace:solutions/2021/02"\
+    },\
+    {\
+      "name": "@aocdays/2021-03",\
+      "reference": "workspace:solutions/2021/03"\
+    },\
+    {\
+      "name": "@aocdays/2021-04",\
+      "reference": "workspace:solutions/2021/04"\
+    },\
+    {\
+      "name": "@aocdays/2021-05",\
+      "reference": "workspace:solutions/2021/05"\
+    },\
+    {\
+      "name": "@aocdays/2021-06",\
+      "reference": "workspace:solutions/2021/06"\
+    },\
+    {\
+      "name": "@aocdays/2021-07",\
+      "reference": "workspace:solutions/2021/07"\
+    },\
+    {\
+      "name": "@aocdays/2021-08",\
+      "reference": "workspace:solutions/2021/08"\
+    },\
+    {\
+      "name": "@aocdays/2021-09",\
+      "reference": "workspace:solutions/2021/09"\
+    },\
+    {\
+      "name": "@aocdays/2021-10",\
+      "reference": "workspace:solutions/2021/10"\
+    },\
+    {\
+      "name": "@aocdays/2021-11",\
+      "reference": "workspace:solutions/2021/11"\
+    },\
+    {\
+      "name": "@aocdays/2021-12",\
+      "reference": "workspace:solutions/2021/12"\
+    },\
+    {\
+      "name": "@aocdays/2021-13",\
+      "reference": "workspace:solutions/2021/13"\
+    },\
+    {\
+      "name": "@aocdays/2021-14",\
+      "reference": "workspace:solutions/2021/14"\
+    },\
+    {\
+      "name": "@aocdays/2021-15",\
+      "reference": "workspace:solutions/2021/15"\
+    },\
+    {\
+      "name": "@aocdays/2021-16",\
+      "reference": "workspace:solutions/2021/16"\
+    },\
+    {\
       "name": "@aocdays/2022-01",\
       "reference": "workspace:solutions/2022/01"\
     },\
@@ -119,6 +183,22 @@ const RAW_RUNTIME_STATE =
   "fallbackExclusionList": [\
     ["@aoc-utils/graphs", ["workspace:packages/graphs"]],\
     ["@aoc-utils/ranges", ["workspace:packages/ranges"]],\
+    ["@aocdays/2021-01", ["workspace:solutions/2021/01"]],\
+    ["@aocdays/2021-02", ["workspace:solutions/2021/02"]],\
+    ["@aocdays/2021-03", ["workspace:solutions/2021/03"]],\
+    ["@aocdays/2021-04", ["workspace:solutions/2021/04"]],\
+    ["@aocdays/2021-05", ["workspace:solutions/2021/05"]],\
+    ["@aocdays/2021-06", ["workspace:solutions/2021/06"]],\
+    ["@aocdays/2021-07", ["workspace:solutions/2021/07"]],\
+    ["@aocdays/2021-08", ["workspace:solutions/2021/08"]],\
+    ["@aocdays/2021-09", ["workspace:solutions/2021/09"]],\
+    ["@aocdays/2021-10", ["workspace:solutions/2021/10"]],\
+    ["@aocdays/2021-11", ["workspace:solutions/2021/11"]],\
+    ["@aocdays/2021-12", ["workspace:solutions/2021/12"]],\
+    ["@aocdays/2021-13", ["workspace:solutions/2021/13"]],\
+    ["@aocdays/2021-14", ["workspace:solutions/2021/14"]],\
+    ["@aocdays/2021-15", ["workspace:solutions/2021/15"]],\
+    ["@aocdays/2021-16", ["workspace:solutions/2021/16"]],\
     ["@aocdays/2022-01", ["workspace:solutions/2022/01"]],\
     ["@aocdays/2022-02", ["workspace:solutions/2022/02"]],\
     ["@aocdays/2022-03", ["workspace:solutions/2022/03"]],\
@@ -227,6 +307,198 @@ const RAW_RUNTIME_STATE =
           ["@aoc-utils/ranges", "workspace:packages/ranges"],\
           ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/jest", "npm:29.5.8"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-01", [\
+      ["workspace:solutions/2021/01", {\
+        "packageLocation": "./solutions/2021/01/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-01", "workspace:solutions/2021/01"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-02", [\
+      ["workspace:solutions/2021/02", {\
+        "packageLocation": "./solutions/2021/02/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-02", "workspace:solutions/2021/02"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-03", [\
+      ["workspace:solutions/2021/03", {\
+        "packageLocation": "./solutions/2021/03/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-03", "workspace:solutions/2021/03"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-04", [\
+      ["workspace:solutions/2021/04", {\
+        "packageLocation": "./solutions/2021/04/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-04", "workspace:solutions/2021/04"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-05", [\
+      ["workspace:solutions/2021/05", {\
+        "packageLocation": "./solutions/2021/05/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-05", "workspace:solutions/2021/05"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-06", [\
+      ["workspace:solutions/2021/06", {\
+        "packageLocation": "./solutions/2021/06/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-06", "workspace:solutions/2021/06"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-07", [\
+      ["workspace:solutions/2021/07", {\
+        "packageLocation": "./solutions/2021/07/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-07", "workspace:solutions/2021/07"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-08", [\
+      ["workspace:solutions/2021/08", {\
+        "packageLocation": "./solutions/2021/08/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-08", "workspace:solutions/2021/08"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-09", [\
+      ["workspace:solutions/2021/09", {\
+        "packageLocation": "./solutions/2021/09/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-09", "workspace:solutions/2021/09"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-10", [\
+      ["workspace:solutions/2021/10", {\
+        "packageLocation": "./solutions/2021/10/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-10", "workspace:solutions/2021/10"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-11", [\
+      ["workspace:solutions/2021/11", {\
+        "packageLocation": "./solutions/2021/11/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-11", "workspace:solutions/2021/11"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-12", [\
+      ["workspace:solutions/2021/12", {\
+        "packageLocation": "./solutions/2021/12/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-12", "workspace:solutions/2021/12"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-13", [\
+      ["workspace:solutions/2021/13", {\
+        "packageLocation": "./solutions/2021/13/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-13", "workspace:solutions/2021/13"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-14", [\
+      ["workspace:solutions/2021/14", {\
+        "packageLocation": "./solutions/2021/14/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-14", "workspace:solutions/2021/14"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-15", [\
+      ["workspace:solutions/2021/15", {\
+        "packageLocation": "./solutions/2021/15/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-15", "workspace:solutions/2021/15"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2021-16", [\
+      ["workspace:solutions/2021/16", {\
+        "packageLocation": "./solutions/2021/16/",\
+        "packageDependencies": [\
+          ["@aocdays/2021-16", "workspace:solutions/2021/16"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
         ],\
         "linkType": "SOFT"\
       }]\
