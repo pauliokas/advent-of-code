@@ -4,7 +4,6 @@ import fs from 'fs';
 
 const aocSession = fs.readFileSync('./.aocsession', 'utf-8').trim();
 
-const year = 2023;
 
 export default (plop) => {
     plop.setHelper('pad', (num) => String(num).padStart(2, '0'));
@@ -12,20 +11,17 @@ export default (plop) => {
     const task = {};
     plop.setActionType('downloadTask', async (answers, config, plop) => {
         Object.assign(task, {
-            assignment: await fetchAssignment({ year, day: answers.day, session: aocSession }),
-            input: await fetchInput({ year, day: answers.day, session: aocSession }),
-            example: await fetchExample({ year, day: answers.day, session: aocSession }),
+            assignment: await fetchAssignment({ year: answers.year, day: answers.day, session: aocSession }),
+            input: await fetchInput({ year: answers.year, day: answers.day, session: aocSession }),
+            example: await fetchExample({ year: answers.year, day: answers.day, session: aocSession }),
         });
     });
 
     plop.setGenerator('day', {
         description: 'generator for a new day in the advent of code',
         prompts: [
-            {
-                type: 'input',
-                name: 'day',
-                message: 'day number',
-            },
+            { type: 'input', name: 'year' },
+            { type: 'input', name: 'day' },
         ],
         actions: [
             {
@@ -33,7 +29,7 @@ export default (plop) => {
             },
             {
                 type: 'add',
-                path: 'days/day{{ pad day }}/README.md',
+                path: 'solutions/{{ year }}/{{ pad day }}/README.md',
                 force: true,
                 transform: async (skipped) => {
                     return prettier.format(task.assignment, { parser: 'markdown',
@@ -46,19 +42,19 @@ export default (plop) => {
             },
             {
                 type: 'add',
-                path: 'days/day{{ pad day }}/src/input.txt',
+                path: 'solutions/{{ year }}/{{ pad day }}/src/input.txt',
                 skipIfExists: true,
                 transform: async (skipped, answers) => task.input,
             },
             {
                 type: 'add',
-                path: 'days/day{{ pad day }}/src/input-example.txt',
+                path: 'solutions/{{ year }}/{{ pad day }}/src/input-example.txt',
                 skipIfExists: true,
                 transform: async (skipped, answers) => task.example,
             },
             {
                 type: 'addMany',
-                destination: 'days/day{{ pad day }}',
+                destination: 'solutions/{{ year }}/{{ pad day }}',
                 base: 'templates/day',
                 templateFiles: 'templates/day/**/*.json',
                 skipIfExists: true,
@@ -74,7 +70,7 @@ export default (plop) => {
             },
             {
                 type: 'addMany',
-                destination: 'days/day{{ pad day }}',
+                destination: 'solutions/{{year}}/{{ pad day }}',
                 base: 'templates/day',
                 templateFiles: 'templates/day/**/*.ts',
                 skipIfExists: true,

@@ -2,7 +2,7 @@
   "name": "advent-of-code-2023",
   "packageManager": "yarn@4.0.1",
   "workspaces": [
-    "days/*",
+    "solutions/*/*",
     "packages/*"
   ],
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint --cache .",
     "test": "jest",
     "test:utils": "jest packages/",
-    "test:days": "jest days/",
+    "test:solutions": "jest solutions/",
     "fetch-day": "plop",
     "prepare": "husky install"
   },
