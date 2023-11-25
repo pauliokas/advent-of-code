@@ -1,5 +1,5 @@
 {
-  "name": "@aocdays/2021-13",
+  "name": "solution-2021-13",
   "main": "./day13.ts",
   "type": "module",
   "devDependencies": {

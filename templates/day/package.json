@@ -1,5 +1,5 @@
 {
-  "name": "@aocdays/{{ year }}-{{ pad day }}",
+  "name": "solution-{{ year }}-{{ pad day }}",
   "main": "./day{{ pad day }}.ts",
   "type": "module",
   "devDependencies": {

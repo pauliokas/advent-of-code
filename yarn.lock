@@ -50,374 +50,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@aocdays/2021-01@workspace:solutions/2021/01":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-01@workspace:solutions/2021/01"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-02@workspace:solutions/2021/02":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-02@workspace:solutions/2021/02"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-03@workspace:solutions/2021/03":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-03@workspace:solutions/2021/03"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-04@workspace:solutions/2021/04":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-04@workspace:solutions/2021/04"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-05@workspace:solutions/2021/05":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-05@workspace:solutions/2021/05"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-06@workspace:solutions/2021/06":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-06@workspace:solutions/2021/06"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-07@workspace:solutions/2021/07":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-07@workspace:solutions/2021/07"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-08@workspace:solutions/2021/08":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-08@workspace:solutions/2021/08"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-09@workspace:solutions/2021/09":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-09@workspace:solutions/2021/09"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-10@workspace:solutions/2021/10":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-10@workspace:solutions/2021/10"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-11@workspace:solutions/2021/11":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-11@workspace:solutions/2021/11"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-12@workspace:solutions/2021/12":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-12@workspace:solutions/2021/12"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-13@workspace:solutions/2021/13":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-13@workspace:solutions/2021/13"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-14@workspace:solutions/2021/14":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-14@workspace:solutions/2021/14"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-15@workspace:solutions/2021/15":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-15@workspace:solutions/2021/15"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2021-16@workspace:solutions/2021/16":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2021-16@workspace:solutions/2021/16"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-01@workspace:solutions/2022/01":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-01@workspace:solutions/2022/01"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-02@workspace:solutions/2022/02":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-02@workspace:solutions/2022/02"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-03@workspace:solutions/2022/03":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-03@workspace:solutions/2022/03"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/lodash": "npm:^4"
-    "@types/txt-ext": "workspace:*"
-    lodash: "npm:4"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-04@workspace:solutions/2022/04":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-04@workspace:solutions/2022/04"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/lodash": "npm:^4"
-    "@types/txt-ext": "workspace:*"
-    lodash: "npm:4"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-05@workspace:solutions/2022/05":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-05@workspace:solutions/2022/05"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-06@workspace:solutions/2022/06":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-06@workspace:solutions/2022/06"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-07@workspace:solutions/2022/07":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-07@workspace:solutions/2022/07"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/lodash": "npm:^4"
-    "@types/txt-ext": "workspace:*"
-    lodash: "npm:4"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-08@workspace:solutions/2022/08":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-08@workspace:solutions/2022/08"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-09@workspace:solutions/2022/09":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-09@workspace:solutions/2022/09"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-10@workspace:solutions/2022/10":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-10@workspace:solutions/2022/10"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-11@workspace:solutions/2022/11":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-11@workspace:solutions/2022/11"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-12@workspace:solutions/2022/12":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-12@workspace:solutions/2022/12"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-13@workspace:solutions/2022/13":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-13@workspace:solutions/2022/13"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-14@workspace:solutions/2022/14":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-14@workspace:solutions/2022/14"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-15@workspace:solutions/2022/15":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-15@workspace:solutions/2022/15"
-  dependencies:
-    "@aoc-utils/ranges": "workspace:*"
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-16@workspace:solutions/2022/16":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-16@workspace:solutions/2022/16"
-  dependencies:
-    "@aoc-utils/graphs": "workspace:*"
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-17@workspace:solutions/2022/17":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-17@workspace:solutions/2022/17"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-19@workspace:solutions/2022/19":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-19@workspace:solutions/2022/19"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-20@workspace:solutions/2022/20":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-20@workspace:solutions/2022/20"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@aocdays/2022-21@workspace:solutions/2022/21":
-  version: 0.0.0-use.local
-  resolution: "@aocdays/2022-21@workspace:solutions/2022/21"
-  dependencies:
-    "@aoctools/tsconfig": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/txt-ext": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
 "@aoctools/fetch-task@workspace:*, @aoctools/fetch-task@workspace:packages/fetch-task":
   version: 0.0.0-use.local
   resolution: "@aoctools/fetch-task@workspace:packages/fetch-task"
@@ -8773,6 +8405,374 @@ __metadata:
   checksum: 5074f7d6a13b3155fa655191df1c7e7a48ce3234b8ccf99afa2ccb56591c195e75e8bb78486f8e9ea8168e95a29573cbaad55b2b5e195160ae4d2ea6811ba833
   languageName: node
   linkType: hard
+
+"solution-2021-01@workspace:solutions/2021/01":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-01@workspace:solutions/2021/01"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-02@workspace:solutions/2021/02":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-02@workspace:solutions/2021/02"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-03@workspace:solutions/2021/03":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-03@workspace:solutions/2021/03"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-04@workspace:solutions/2021/04":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-04@workspace:solutions/2021/04"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-05@workspace:solutions/2021/05":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-05@workspace:solutions/2021/05"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-06@workspace:solutions/2021/06":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-06@workspace:solutions/2021/06"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-07@workspace:solutions/2021/07":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-07@workspace:solutions/2021/07"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-08@workspace:solutions/2021/08":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-08@workspace:solutions/2021/08"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-09@workspace:solutions/2021/09":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-09@workspace:solutions/2021/09"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-10@workspace:solutions/2021/10":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-10@workspace:solutions/2021/10"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-11@workspace:solutions/2021/11":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-11@workspace:solutions/2021/11"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-12@workspace:solutions/2021/12":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-12@workspace:solutions/2021/12"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-13@workspace:solutions/2021/13":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-13@workspace:solutions/2021/13"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-14@workspace:solutions/2021/14":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-14@workspace:solutions/2021/14"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-15@workspace:solutions/2021/15":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-15@workspace:solutions/2021/15"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2021-16@workspace:solutions/2021/16":
+  version: 0.0.0-use.local
+  resolution: "solution-2021-16@workspace:solutions/2021/16"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-01@workspace:solutions/2022/01":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-01@workspace:solutions/2022/01"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-02@workspace:solutions/2022/02":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-02@workspace:solutions/2022/02"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-03@workspace:solutions/2022/03":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-03@workspace:solutions/2022/03"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/lodash": "npm:^4"
+    "@types/txt-ext": "workspace:*"
+    lodash: "npm:4"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-04@workspace:solutions/2022/04":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-04@workspace:solutions/2022/04"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/lodash": "npm:^4"
+    "@types/txt-ext": "workspace:*"
+    lodash: "npm:4"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-05@workspace:solutions/2022/05":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-05@workspace:solutions/2022/05"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-06@workspace:solutions/2022/06":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-06@workspace:solutions/2022/06"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-07@workspace:solutions/2022/07":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-07@workspace:solutions/2022/07"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/lodash": "npm:^4"
+    "@types/txt-ext": "workspace:*"
+    lodash: "npm:4"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-08@workspace:solutions/2022/08":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-08@workspace:solutions/2022/08"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-09@workspace:solutions/2022/09":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-09@workspace:solutions/2022/09"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-10@workspace:solutions/2022/10":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-10@workspace:solutions/2022/10"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-11@workspace:solutions/2022/11":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-11@workspace:solutions/2022/11"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-12@workspace:solutions/2022/12":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-12@workspace:solutions/2022/12"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-13@workspace:solutions/2022/13":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-13@workspace:solutions/2022/13"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-14@workspace:solutions/2022/14":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-14@workspace:solutions/2022/14"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-15@workspace:solutions/2022/15":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-15@workspace:solutions/2022/15"
+  dependencies:
+    "@aoc-utils/ranges": "workspace:*"
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-16@workspace:solutions/2022/16":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-16@workspace:solutions/2022/16"
+  dependencies:
+    "@aoc-utils/graphs": "workspace:*"
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-17@workspace:solutions/2022/17":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-17@workspace:solutions/2022/17"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-19@workspace:solutions/2022/19":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-19@workspace:solutions/2022/19"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-20@workspace:solutions/2022/20":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-20@workspace:solutions/2022/20"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2022-21@workspace:solutions/2022/21":
+  version: 0.0.0-use.local
+  resolution: "solution-2022-21@workspace:solutions/2022/21"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
 
 "source-map-support@npm:0.5.13":
   version: 0.5.13
