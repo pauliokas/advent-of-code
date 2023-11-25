@@ -45,5 +45,6 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error', { variables: false }],
     'no-restricted-syntax': 'off',
     '@typescript-eslint/no-loop-func': 'off',
+    'jest/no-disabled-tests': 'off',
   },
 };

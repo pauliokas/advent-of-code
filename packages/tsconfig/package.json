@@ -1,8 +1,5 @@
 {
   "name": "@aoctools/tsconfig",
-  "type": "module",
-  "main": "tsconfig.json",
-  "module": "tsconfig.json",
   "dependencies": {
     "@tsconfig/node20": "20.1.2"
   }

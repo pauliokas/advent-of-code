@@ -1,4 +1,4 @@
-import type { NumericShout, OperationShout, OperationType, Shout } from './day21.input';
+import type { NumericShout, OperationShout, OperationType, Shout } from './day21.input.js';
 
 type Node = OperationNode | NumericNode;
 

@@ -51,6 +51,7 @@ const parsePacket = (stream: Readable): Packet | null => {
       innerStream.push(stream.read(bitsLength));
       innerStream.push(null);
 
+      // eslint-disable-next-line no-constant-condition
       while (true) {
         const operand = parsePacket(innerStream);
         if (!operand) {
