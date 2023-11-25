@@ -176,6 +176,10 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "solution-2022-21",\
       "reference": "workspace:solutions/2022/21"\
+    },\
+    {\
+      "name": "@aocdays/2022-22",\
+      "reference": "workspace:solutions/2022/22"\
     }\
   ],\
   "enableTopLevelFallback": true,\
@@ -183,6 +187,7 @@ const RAW_RUNTIME_STATE =
   "fallbackExclusionList": [\
     ["@aoc-utils/graphs", ["workspace:packages/graphs"]],\
     ["@aoc-utils/ranges", ["workspace:packages/ranges"]],\
+    ["@aocdays/2022-22", ["workspace:solutions/2022/22"]],\
     ["@aoctools/fetch-task", ["workspace:packages/fetch-task"]],\
     ["@aoctools/tsconfig", ["workspace:packages/tsconfig"]],\
     ["@types/txt-ext", ["workspace:packages/txt-ext"]],\
@@ -307,6 +312,18 @@ const RAW_RUNTIME_STATE =
           ["@aoc-utils/ranges", "workspace:packages/ranges"],\
           ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/jest", "npm:29.5.8"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@aocdays/2022-22", [\
+      ["workspace:solutions/2022/22", {\
+        "packageLocation": "./solutions/2022/22/",\
+        "packageDependencies": [\
+          ["@aocdays/2022-22", "workspace:solutions/2022/22"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
         ],\
         "linkType": "SOFT"\
       }]\

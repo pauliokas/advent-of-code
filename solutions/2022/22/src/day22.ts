@@ -26,10 +26,10 @@ const move = (map: Map, coords: Coords, { x: dx, y: dy }: Coords): Coords => {
 
   const newCoords = { x: coords.x + dx, y: coords.y + dy };
 
-  if (!isInBounds(newCoords) || map[newCoords.y][newCoords.x] === ' ') {
+  if (!isInBounds(newCoords) || map[newCoords.y][newCoords.x] === undefined) {
     newCoords.x = dx !== 0 ? width - 1 - ((dx + 1) / 2) * (width - 1) : newCoords.x;
     newCoords.y = dy !== 0 ? height - 1 - ((dy + 1) / 2) * (height - 1) : newCoords.y;
-    while (map[newCoords.y][newCoords.x] === ' ') {
+    while (map[newCoords.y][newCoords.x] === undefined) {
       newCoords.x += dx;
       newCoords.y += dy;
     }
@@ -73,15 +73,30 @@ const bb = [
   [1, 0, 0],
 ];
 
+/*
+  0
+123
+  45
+*/
+
+const faceConfig = {
+  0: { top: 4, bottom: 3, left: 2, right: 5 },
+  1: { top: 0, bottom: 0, left: 0, right: 0 },
+  2: { top: 0, bottom: 0, left: 0, right: 0 },
+  3: { top: 0, bottom: 0, left: 0, right: 0 },
+  4: { top: 0, bottom: 0, left: 0, right: 0 },
+  5: { top: 0, bottom: 0, left: 0, right: 0 },
+};
+
 export const solvePart2 = ({ map, moves }: { map: Map; moves: Moves }): number => {
-  const cellCount = map.reduce((acc, row) => acc + row.reduce((a, cell) => a + (cell === ' ' ? 0 : 1), 0), 0);
+  const cellCount = map.reduce((acc, row) => acc + row.reduce((a, cell) => a + (cell === undefined ? 0 : 1), 0), 0);
   const faceSize = Math.sqrt(cellCount / 6);
   const faceCorners: Coords[] = [];
   for (let y = 0; y < map.length; y += faceSize) {
     for (let x = 0; x < map[y].length; x += faceSize) {
-      if (map[y][x] === ' ') continue;
+      if (map[y][x] === undefined) continue;
       faceCorners.push({ x, y });
     }
   }
-  return 42;
+  return 42; //
 };
