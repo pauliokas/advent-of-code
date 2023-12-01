@@ -1,6 +1,3 @@
-const charCode0 = '0'.charCodeAt(0);
-const charCode9 = '9'.charCodeAt(0);
-
 const digitMap = {
   one: 1,
   two: 2,
