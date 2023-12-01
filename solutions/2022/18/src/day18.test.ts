@@ -1,35 +1,34 @@
 import { solvePart1, solvePart2 } from './day18';
 import parseInput from './day18.input';
-import input from './input.txt';
-
-const exampleInput = [].join('\n');
+import inputExampleTxt from './input-example.txt';
+import inputTxt from './input.txt';
 
 describe('2022-18', () => {
   describe('part 1', () => {
-    it('example', () => {
-      const parsedInput = parseInput(exampleInput);
+    it('simple example', () => {
+      expect(solvePart1(parseInput(['1,1,1', '2,1,1'].join('\n')))).toBe(10);
+    });
 
-      expect(solvePart1(parsedInput)).toBe(-1);
+    it('example', () => {
+      expect(solvePart1(parseInput(inputExampleTxt))).toBe(64);
     });
 
     it('exercise', () => {
-      const parsedInput = parseInput(input);
-
-      expect(solvePart1(parsedInput)).toBe(-1);
+      expect(solvePart1(parseInput(inputTxt))).toBe(4348);
     });
   });
 
   describe('part 2', () => {
-    it('example', () => {
-      const parsedInput = parseInput(exampleInput);
+    it('simple example', () => {
+      expect(solvePart2(parseInput(['1,1,1', '2,1,1'].join('\n')))).toBe(10);
+    });
 
-      expect(solvePart2(parsedInput)).toBe(-1);
+    it('example', () => {
+      expect(solvePart2(parseInput(inputExampleTxt))).toBe(58);
     });
 
     it('exercise', () => {
-      const parsedInput = parseInput(input);
-
-      expect(solvePart2(parsedInput)).toBe(-1);
+      expect(solvePart2(parseInput(inputTxt))).toBeGreaterThan(2541);
     });
   });
 });
