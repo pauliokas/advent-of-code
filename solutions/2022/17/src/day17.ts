@@ -67,7 +67,6 @@ const findRepeatingPattern = (numbers: number[]): { prefix: number; length: numb
   for (let prefix = 0; prefix < numbers.length - 5 * 10; prefix += 1) {
     const maxLength = Math.ceil((numbers.length - prefix) / 5);
 
-    /* eslint-disable no-labels */
     lengthLoop: for (let length = 1; length < maxLength; length += 1) {
       for (let c = prefix + length; c < numbers.length; c += 1) {
         if (numbers[c] !== numbers[prefix + ((c - prefix) % length)]) continue lengthLoop;
@@ -75,7 +74,6 @@ const findRepeatingPattern = (numbers: number[]): { prefix: number; length: numb
 
       return { prefix, length };
     }
-    /* eslint-enable no-labels */
   }
 
   throw new Error('No pattern found');

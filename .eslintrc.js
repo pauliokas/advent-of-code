@@ -46,5 +46,6 @@ module.exports = {
     'no-restricted-syntax': 'off',
     '@typescript-eslint/no-loop-func': 'off',
     'jest/no-disabled-tests': 'off',
+    'no-labels': 'off',
   },
 };

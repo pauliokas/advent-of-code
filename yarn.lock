@@ -2745,7 +2745,7 @@ __metadata:
     eslint-plugin-jest: "npm:27.6.0"
     eslint-plugin-jest-formatting: "npm:3.1.0"
     eslint-plugin-prettier: "npm:5.0.1"
-    husky: "npm:8.0.3"
+    husky: "npm:8"
     jest: "npm:29.7.0"
     lint-staged: "npm:15.0.2"
     plop: "npm:4.0.0"
@@ -5419,7 +5419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.3":
+"husky@npm:8":
   version: 8.0.3
   resolution: "husky@npm:8.0.3"
   bin:
@@ -8777,6 +8777,16 @@ __metadata:
 "solution-2023-01@workspace:solutions/2023/01":
   version: 0.0.0-use.local
   resolution: "solution-2023-01@workspace:solutions/2023/01"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"solution-2023-02@workspace:solutions/2023/02":
+  version: 0.0.0-use.local
+  resolution: "solution-2023-02@workspace:solutions/2023/02"
   dependencies:
     "@aoctools/tsconfig": "workspace:*"
     "@types/jest": "npm:*"
