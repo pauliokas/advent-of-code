@@ -1,4 +1,4 @@
-import type { Colour, Game, Round } from './day02.input';
+import type { Colour, Game, Round } from './day02.input.js';
 
 const colours: Colour[] = ['red', 'green', 'blue'];
 
