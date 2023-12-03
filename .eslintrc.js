@@ -47,5 +47,6 @@ module.exports = {
     '@typescript-eslint/no-loop-func': 'off',
     'jest/no-disabled-tests': 'off',
     'no-labels': 'off',
+    'no-bitwise': 'off',
   },
 };
