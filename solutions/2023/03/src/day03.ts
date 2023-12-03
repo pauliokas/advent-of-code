@@ -53,9 +53,10 @@ const solve =
 
     return partSum;
   };
+
 export const solvePart1 = solve({
   partFilter: () => true,
-  processPartNumbers: (partNumbers: PartNumber[]) => partNumbers.reduce((sum, { number }) => sum + number, 0),
+  processPartNumbers: (partNumbers) => partNumbers.reduce((sum, { number }) => sum + number, 0),
 });
 
 export const solvePart2 = solve({
