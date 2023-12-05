@@ -18,8 +18,6 @@ const shapes: Record<Shape, number[]> = {
   '#': [0b0011000, 0b0011000],
 };
 
-/* eslint-disable no-bitwise */
-
 const shift = (number: number, dir: Direction): number => (dir === '<' ? number << 1 : number >> 1);
 
 const buildTower = (jets: Direction[], rounds: number): number[] => {
