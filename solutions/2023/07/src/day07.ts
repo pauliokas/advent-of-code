@@ -1,6 +1,6 @@
 import type { Game } from './day07.input.js';
 
-const cards = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2'] as const;
+const cards = ['A', 'K', 'Q', 'T', '9', '8', '7', '6', '5', '4', '3', '2', 'J'] as const;
 const cardStrength = cards.reduce(
   (acc, suite, index, arr) => ({ ...acc, [suite]: arr.length - index }),
   {} as Record<Card, number>,
@@ -25,7 +25,19 @@ const getTypeStrength = (hand: string) => {
     counts.set(hand[i], counts.get(hand[i])! + 1);
   }
 
-  const countsStr = [...counts.values()].sort((left, right) => right - left).join('');
+  const jokersCount = counts.get('J') ?? 0;
+  counts.delete('J');
+
+  const strengths = [...counts.values()];
+
+  if (jokersCount > 0) {
+    if (strengths.length === 0) strengths.push(0);
+    const maxCount = Math.max(...strengths) ?? 0;
+    const maxIdx = maxCount > 0 ? strengths.indexOf(maxCount) : 0;
+    strengths.splice(maxIdx, 1, maxCount + jokersCount);
+  }
+
+  const countsStr = strengths.sort((left, right) => right - left).join('');
 
   return typeStrength[countsStr as keyof typeof typeStrength];
 };
@@ -58,5 +70,10 @@ export const solvePart1 = (games: Game[]): number => {
 };
 
 export const solvePart2 = (games: Game[]): number => {
-  throw new Error('Not implemented');
+  const sortedGames = games.toSorted(compareGames);
+  let score = 0;
+  for (let i = 0; i < sortedGames.length; i += 1) {
+    score += sortedGames[i].bid * (i + 1);
+  }
+  return score;
 };

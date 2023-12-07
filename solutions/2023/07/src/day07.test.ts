@@ -16,11 +16,11 @@ describe('2023-07', () => {
 
   describe('part 2', () => {
     it('example', () => {
-      expect(solvePart2(parseInput(inputExampleTxt))).toBe(0);
+      expect(solvePart2(parseInput(inputExampleTxt))).toBe(5905);
     });
 
     it('exercise', () => {
-      expect(solvePart2(parseInput(inputTxt))).toBe(0);
+      expect(solvePart2(parseInput(inputTxt))).toBe(253907829);
     });
   });
 });
