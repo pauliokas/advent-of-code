@@ -1,5 +1,6 @@
-import { solvePart1, solvePart2 } from './day07';
 import parseInput from './day07.input';
+import { solvePart1 } from './day07.part1';
+import { solvePart2 } from './day07.part2';
 import inputExampleTxt from './input-example.txt';
 import inputTxt from './input.txt';
 

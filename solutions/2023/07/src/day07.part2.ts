@@ -60,15 +60,6 @@ const compareGames = (left: Game, right: Game) => {
   return 0;
 };
 
-export const solvePart1 = (games: Game[]): number => {
-  const sortedGames = games.toSorted(compareGames);
-  let score = 0;
-  for (let i = 0; i < sortedGames.length; i += 1) {
-    score += sortedGames[i].bid * (i + 1);
-  }
-  return score;
-};
-
 export const solvePart2 = (games: Game[]): number => {
   const sortedGames = games.toSorted(compareGames);
   let score = 0;
