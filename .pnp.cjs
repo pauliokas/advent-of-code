@@ -204,6 +204,10 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "solution-2023-07",\
       "reference": "workspace:solutions/2023/07"\
+    },\
+    {\
+      "name": "solution-2023-08",\
+      "reference": "workspace:solutions/2023/08"\
     }\
   ],\
   "enableTopLevelFallback": true,\
@@ -257,7 +261,8 @@ const RAW_RUNTIME_STATE =
     ["solution-2023-04", ["workspace:solutions/2023/04"]],\
     ["solution-2023-05", ["workspace:solutions/2023/05"]],\
     ["solution-2023-06", ["workspace:solutions/2023/06"]],\
-    ["solution-2023-07", ["workspace:solutions/2023/07"]]\
+    ["solution-2023-07", ["workspace:solutions/2023/07"]],\
+    ["solution-2023-08", ["workspace:solutions/2023/08"]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -11927,6 +11932,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./solutions/2023/07/",\
         "packageDependencies": [\
           ["solution-2023-07", "workspace:solutions/2023/07"],\
+          ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
+          ["@types/jest", "npm:29.5.8"],\
+          ["@types/txt-ext", "workspace:packages/txt-ext"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["solution-2023-08", [\
+      ["workspace:solutions/2023/08", {\
+        "packageLocation": "./solutions/2023/08/",\
+        "packageDependencies": [\
+          ["solution-2023-08", "workspace:solutions/2023/08"],\
           ["@aoctools/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/jest", "npm:29.5.8"],\
           ["@types/txt-ext", "workspace:packages/txt-ext"]\
