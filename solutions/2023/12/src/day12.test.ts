@@ -16,7 +16,7 @@ describe('2023-12', () => {
 
   describe('part 2', () => {
     it('example', () => {
-      expect(solvePart2(parseInput(inputExampleTxt))).toBe(0);
+      expect(solvePart2(parseInput(inputExampleTxt))).toBe(525152);
     });
 
     it('exercise', () => {
