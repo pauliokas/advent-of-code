@@ -1,0 +1,10 @@
+{
+  "name": "solution-2023-13",
+  "main": "./day13.ts",
+  "type": "module",
+  "devDependencies": {
+    "@aoctools/tsconfig": "workspace:*",
+    "@types/jest": "*",
+    "@types/txt-ext": "workspace:*"
+  }
+}
