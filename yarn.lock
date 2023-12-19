@@ -8924,6 +8924,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"solution-2023-17@workspace:solutions/2023/17":
+  version: 0.0.0-use.local
+  resolution: "solution-2023-17@workspace:solutions/2023/17"
+  dependencies:
+    "@aoctools/tsconfig": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/txt-ext": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
 "solution-2023-18@workspace:solutions/2023/18":
   version: 0.0.0-use.local
   resolution: "solution-2023-18@workspace:solutions/2023/18"
