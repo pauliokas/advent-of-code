@@ -91,3 +91,7 @@ export const solvePart2 = (input: Record<'broadcaster' | string, Module>): numbe
 
   return buttonPresses;
 };
+
+// 1 3 5 9 17 33 65
+
+// 3 2 6 10 18 34 66

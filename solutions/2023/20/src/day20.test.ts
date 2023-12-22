@@ -2,6 +2,7 @@ import { solvePart1, solvePart2 } from './day20';
 import parseInput from './day20.input';
 import inputExample1Txt from './input-example-1.txt';
 import inputExample2Txt from './input-example-2.txt';
+import inputExample3Txt from './input-example-3.txt';
 import inputTxt from './input.txt';
 
 describe('2023-20', () => {
@@ -11,6 +12,10 @@ describe('2023-20', () => {
     });
 
     it('example 2', () => {
+      expect(solvePart1(parseInput(inputExample2Txt))).toBe(11687500);
+    });
+
+    it('example 3', () => {
       expect(solvePart1(parseInput(inputExample2Txt))).toBe(11687500);
     });
 
@@ -26,6 +31,10 @@ describe('2023-20', () => {
 
     it('example 2', () => {
       expect(solvePart2(parseInput(inputExample2Txt))).toBe(0);
+    });
+
+    it('example 3', () => {
+      expect(solvePart2(parseInput(inputExample3Txt))).toBe(11687500);
     });
 
     it('exercise', () => {
